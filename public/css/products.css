@@ -1,0 +1,70 @@
+/* products.css */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 1px;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: auto;
+
+}
+
+.card-text {
+    color: #041297;
+    padding: auto;
+
+}
+
+.card-body {
+    background-color: #fafcff;
+    padding: 15px;
+    
+
+}
+
+.card-body .btn {
+    width: 100%;
+    padding: 1.2rem;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease-in-out;
+    border-radius: 12px;
+    overflow: hidden;
+    
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+.btn-outline-primary {
+    border: 1px solid #3b82f6;
+    color: #3b82f6;
+    transition: all 0.3s ease;
+}
+.btn-outline-primary:hover {
+    background-color: #3b82f6;
+    color: #fff;
+}
+.card-zapato {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    transition: all 0.3s ease-in-out;
+}
+.card-zapato:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+

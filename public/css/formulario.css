@@ -1,0 +1,61 @@
+
+body {
+    background: url('fondo.jpg')fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+#contentBox {
+    background-color: rgb(242, 239, 220);
+    color: rgb(10, 9, 9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    transition: background-color 0.5s ease-in-out;
+}
+#contentBox.registrado {
+    background-color: white;
+    color: blue;
+}
+input {
+    background-color: black;
+    display: block;
+    margin: 5px auto;
+    padding: 12px;
+    width: 90%;
+    border: 1px solid rgb(250, 0, 0);
+    border-radius: 5px;
+    color: white;
+}
+input::placeholder {
+    color: #bbb;
+}
+button {
+    background-color: rgb(77, 53, 232);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #aefc49; /* Azul brillante */
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.yaCuenta {
+    display: block;
+    margin-top: 10px;
+    color: rgb(107, 107, 103);
+    text-decoration: none;
+}
+.alert {
+    margin-top: 10px;
+}
+

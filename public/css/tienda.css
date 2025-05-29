@@ -1,0 +1,203 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Fondo suave para toda la página */
+    color: #333;
+    
+}
+
+.container-fluid {
+    background-color: rgb(250, 251, 251);
+
+}
+.btn-primary {
+    background-color: #d7ee45;
+    border-color: #d7ee45;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 150px; /* ancho personalizado */
+    height: 40px;  /* alto personalizado */
+    font-size: 16px; /* tamaño de letra */
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-success {
+    background-color: #1fa821;
+    border-color: #30d2af;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 150px; /* ancho personalizado */
+    height: 40px;  /* alto personalizado */
+    font-size: 16px; /* tamaño de letra */
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-danger {
+    background-color: #f44336;
+    border-color: #46110d;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 150px; /* ancho personalizado */
+    height: 40px;  /* alto personalizado */
+    font-size: 16px; /* tamaño de letra */
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+    text-align: center; /* Centrar el texto */
+    font-style: italic;
+    padding: 10px;
+}
+
+/* Estilos para el carrusel */
+.carousel-item img {
+    object-fit: cover; /* Para que las imágenes se ajusten a la pantalla */
+    height: 500px; /* Altura uniforme para las imágenes */
+}
+
+.carousel-caption h5 {
+    font-size: 2rem; /* Aumentar el tamaño del texto del nombre */
+    font-weight: bold;
+    color: #fff;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem; /* Ajustar el tamaño del texto */
+    color: #fff;
+}
+
+/* Estilo de la sección de categorías */
+.category-card {
+    border: none;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px; /* Bordes redondeados */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+.category-card .card-body {
+    padding: 15px;
+}
+
+.category-card .btn {
+    margin-top: 10px;
+}
+
+/* Estilos para los productos */
+.product-card {
+    border: none;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+.product-card img {
+    object-fit: cover;
+    height: 300px; /* Controlar el tamaño de las imágenes */
+    width: 100%; /* Asegurarse de que la imagen ocupe todo el ancho */
+    border-radius: 8px;
+}
+
+.product-card .card-body {
+    padding: 10px;
+
+    
+
+    background-color: rgb(237, 236, 233);
+}
+
+.product-card .btn {
+    margin-top: 10px;
+}
+
+
+
+
+
+/* Espaciado adicional */
+.section-header {
+    margin-bottom: 40px;
+}
+
+/* Fondo para las tarjetas en el carrusel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Estilos para los enlaces de la barra de navegación */
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #070707; /* Color de enlace al pasar el mouse */
+}
+
+/* Media queries para ajustar en móviles */
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 300px; /* Reducir altura en pantallas pequeñas */
+    }
+}
+
+/* Estilos para el carrusel de productos */
+.carousel-inner img {
+    object-fit: cover; /* Para que la imagen cubra toda el área del carrusel */
+    height: 500px; /* Altura fija para las imágenes del carrusel */
+}
+
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    color: #d4c786;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.carousel-caption .btn {
+    margin-top: 10px;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 767px) {
+    .carousel-inner img {
+        height: 300px; /* Ajustar la altura de las imágenes en pantallas pequeñas */
+    }
+}

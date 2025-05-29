@@ -1,0 +1,25 @@
+/* navbar.css */
+.navbar {
+    background-color: #ffffff; /* Color oscuro */
+    padding: 10px 10px;
+    color: black;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;  
+    
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nav-link {
+    font-size: 1rem;
+   
+}
+
+

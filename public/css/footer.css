@@ -1,0 +1,15 @@
+/* footer.css */
+footer {
+    background-color: #7a6868;
+
+    padding: 20px 0;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    
+
+}
+
+footer p {
+    margin: 0;
+}
